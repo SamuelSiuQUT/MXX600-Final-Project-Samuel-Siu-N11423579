@@ -14,11 +14,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-train <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical Computing Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/train.csv")
+#train <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical Computing #Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/train.csv")
+
+train <- read.csv("C:/Users/siusa/Documents/MXX600-Final-Project-Samuel-Siu-N11423579/train.csv")
 ```
 
 ```{r}
-test <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical Computing Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/test.csv")
+#test <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical Computing #Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/test.csv")
+
+test <- read.csv("C:/Users/siusa/Documents/MXX600-Final-Project-Samuel-Siu-N11423579/test.csv")
 ```
 
 ```{r}
@@ -27,7 +31,9 @@ test$Name[415] <- "Oliva y Ocana, Miss. Fermina"# becuase Oliva y Ocana, Dona. F
 
 
 ```{r}
-gender_submission <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical Computing Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/gender_submission.csv")
+#gender_submission <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical #Computing Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/gender_submission.csv")
+
+gender_submission <- read.csv("C:/Users/siusa/Documents/MXX600-Final-Project-Samuel-Siu-N11423579/gender_submission.csv")
 ```
 
 # Data processing
