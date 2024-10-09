@@ -14,6 +14,10 @@ library(usethis)
 ################
 ```
 
+```{r}
+##########################################
+```
+
 
 ```{r}
 #train <- read.csv("C:/Users/siusa/Desktop/QUT課程/Y2S2/MXN442_24se2 Modern Statistical Computing #Techniques/Assignment 3 Final Report/Rstudio/Open Titanic data/train.csv")
